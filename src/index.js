@@ -14,7 +14,6 @@ const options = {
   threshold: 1.0,
 };
 const observer = new IntersectionObserver(updatePhotos, options);
-//
 const searchForm = document.querySelector('#search-form');
 const galleryBox = document.querySelector('.gallery');
 
