@@ -39,7 +39,6 @@ function onFormSubmit(e) {
       );
       return;
     }
-    //
     if (response.data.totalHits > 1) {
       Notiflix.Notify.success(
         `Hooray! We found ${response.data.totalHits} images.`
